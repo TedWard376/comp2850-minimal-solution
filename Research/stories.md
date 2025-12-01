@@ -1,28 +1,41 @@
 # Job Stories — Week 6 Needs-Finding
 
-## Story S1: [Short Title]
-**Situation**: When I'm [doing specific task in specific context]
-**Motivation**: I want [capability or feature]
-**Outcome**: So I can [accomplish goal]
-**Underlying need**: Because [why this matters, what pain it solves]
+## Story S1: Edit button
+**Situation**: when i create a task
+**Motivation**: I want to be able to edit it
+**Outcome**: So I can change the task easily if I made an error, or just need to chamge it 
+**Underlying need**: This will stop users from having to delte and re add a task every time they want to edity it,reducing frustration  
 
-**Evidence**: Participant A (notes L5), Participant B (notes L3)
-**Inclusion risk**: [e.g., Cognitive, Motor, Screen reader]
+**Evidence**: Participant A (notes L20), participent B (notes L84)
+**Inclusion risk**: Error recovery barrier
 **Type**: Job story
-**WCAG**: [If applicable, e.g., 2.1.1 Keyboard (A)]
+**WCAG**: N/A
 
 ---
 
-## Story S2: Confirmation Feedback
-**Situation**: When I submit a form (add/edit/delete task)
-**Motivation**: I want immediate, explicit confirmation that the action succeeded
-**Outcome**: So I can trust the interface without refreshing to verify
-**Underlying need**: Because uncertainty about save status causes anxiety and inefficient workarounds
+## Story S2: Dark Mode
+**Situation**: When using task manager in bright light
+**Motivation**: I want a dark mode feature
+**Outcome**: So I am able to use the task manager no matter the conditions, and see it properly
+**Underlying need**: Because I need to be able to read the screen and see all parts of the task manager 
 
-**Evidence**: [Your notes references]
-**Inclusion risk**: Cognitive, Screen reader, Low digital literacy
+**Evidence**: Participant A (notes L45), participent B (notes L108)
+**Inclusion risk**: Visual Fatigue, Inaccessability for low vision/ colour blind users
 **Type**: Job story
-**WCAG**: 4.1.3 Status Messages (AA)
+**WCAG**: 1.4.3 Contrast Minimum (AA)
+
+---
+
+## Story S3: Voice commands
+**Situation**: When users with low vision or low motor skills use the task manager
+**Motivation**: I want to be able to use voice commands
+**Outcome**: So i can navigate the task manager wihtout the need for a keyboard and mosue
+**Underlying need**: Because all users should be able to use the task manager independently with reduced physical effort. Avoids having to use small buttons and complex menus. 
+
+**Evidence**: Participant C (notes L164)
+**Inclusion risk**: Motor, Acessability
+**Type**: Job story
+**WCAG**: 2.1.1 Keyboard (A)
 
 ---
 
