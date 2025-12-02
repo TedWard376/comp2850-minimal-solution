@@ -42,7 +42,7 @@
 ## Story S4: User-Frienly UI
 **Situation**: When I'm using task manager on mobile with low vision or low motor control
 **Motivation**: I want large buttons, clear text and simple navigation
-**Outcome**: So I can easily access and navigate the task manager
+**Outcome**: So I can easily naviagte, add, delete and edit tasks
 **Underlying need**: Because small buttons and complicated menus make it unuseable for some users
 
 **Evidence**: Participant C (notes L 150)
@@ -52,16 +52,16 @@
 
 ---
 
-## Story S5: Task History
-**Situation**: When I frequently repeat the same tasks
-**Motivation**: I want a history feature
-**Outcome**: So I can easily re-add previous tasks, to avoid re-creating tasks
-**Underlying need**: Because having to create a new task every time can be frustrating
+## Story S5: Filter Tasks
+**Situation**: When I have lots of tasks
+**Motivation**: I want a Filter feature
+**Outcome**: So I can easily search through tasks to find the ones that need completing
+**Underlying need**: Because having to manullly search through tasks can be tedious and frustrating
 
 **Evidence**: Participant  B(notes L 116)
-**Inclusion risk**: Cognitive, Motor
+**Inclusion risk**: Motor, Vision
 **Type**: Job story
-**WCAG**: 2.4.1 Bypass Blocks (A)
+**WCAG**: 2.4.5 Multiple Ways (AA)
 
 ---
 

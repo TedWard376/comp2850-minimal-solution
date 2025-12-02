@@ -113,9 +113,9 @@
 
 ---
 ## Q6 “If you could add one feature to make task management less stressful, what would it be?”
-**Response**: history feature, resuse previous tasks for repeating tasks
+**Response**: being able to Filter tasks
 
-**Observations**: Would make it easier to be able to re add tasks that are recurring
+**Observations**: Would make it easier to find tasks in long list and group similar tasks
 
 **Themes**:additional features, ease of use
 

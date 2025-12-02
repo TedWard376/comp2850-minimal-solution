@@ -3,25 +3,25 @@
 ## Task 1: Edit Task
 
 - Scenario: Fix typo in task title
-- Action: Change “Buy mikl” to “Buy milk”
+- Action: Change “Got o the shop” to “Go to the shop”
 - Success: Title updates without needing to recreate task
 - Target: < 15 seconds
 - Linked to: Week 6 Job Story S1 (editable tasks)
 
-## Task 2: Set Priority
+## Task 2: Delete Task
 
-- Scenario: Important task is getting buried in list
-- Action: Mark “Submit assignment” as high Priority
-- Success: Task moves to top and shows priority indicator
+- Scenario: You have finished task "Walk the dog"
+- Action: Delete the task named "Walk the dog"
+- Success: Task is removed from tasks list
 - Target: < 10 seconds
-- Linked to: Week 6 Job Story S2 (priority & smart ordering)
+- Linked to: Week 6 Job Story S4 (Intuitive design and easy to use)
 
-## Task 3: Enable Dark Mode
+## Task 3: Filter tasks
 - Scenario: User struggles to see screen in bright light
 - Action: Switch to dark mode in settings
 - Success: Dark theme activates, text contrast improves 
 - Target: < 8 seconds
-- Linked to: Week 6 Job Story S5 (Dark mode, high ontrast)
+- Linked to: Week 6 Job Story S5 (Filtering Tasks)
 
 ## Task 4: Keyboard-Only Navigation
 - Scenario: User is on a laptop without a mouse
