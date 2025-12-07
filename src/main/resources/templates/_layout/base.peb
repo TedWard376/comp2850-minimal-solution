@@ -55,6 +55,9 @@
       color: white !important; /* White text on blue background for better contrast */
     }
   </style>
+  
+  {# Custom COMP2850 styles (loaded last to override others) #}
+  <link rel="stylesheet" href="/css/custom.css">
 </head>
 <body>
   {# Include header with navigation and accessibility features #}
