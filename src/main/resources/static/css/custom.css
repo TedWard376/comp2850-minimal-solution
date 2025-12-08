@@ -60,7 +60,7 @@ a:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 3px solid #2196F3;
+  outline: 3px solid #f88d29;
   outline-offset: 2px;
 }
 
@@ -182,7 +182,7 @@ select:focus {
 
 .task-item.completed .task-title {
   text-decoration: line-through;
-  color: var(--pico-muted-color, #666);
+  color: var(--pico-muted-color, #666); 
 }
 
 .task-content {
@@ -192,7 +192,8 @@ select:focus {
 
 .task-title {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.25rem;
   margin-bottom: 0.25rem;
   word-wrap: break-word;
 }
