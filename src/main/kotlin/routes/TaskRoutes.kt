@@ -295,7 +295,7 @@ val cssClass = if (isError) """ class="error""" else ""
 return """<div id="status" hx-swap-oob="true" role="$role"$ariaLive$cssClass>$message</div>"""
 }
 
-
+        
 /**
 * Week 7: GET /tasks/{id}/edit - Show inline edit form
 */

@@ -57,7 +57,7 @@
   </style>
   
   {# Custom COMP2850 styles (loaded last to override others) #}
-  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="static/css/custom.css">
 </head>
 <body>
   {# Include header with navigation and accessibility features #}
