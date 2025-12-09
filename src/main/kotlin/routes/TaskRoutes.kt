@@ -282,7 +282,7 @@ if (query.isBlank()) {
 """<div id="status" hx-swap-oob="true" role="status"></div>"""
 } else {
 val noun = if (total == 1) "task" else "tasks"
-"""<div id="status" hx-swap-oob="true" role="status">Found $total $noun matching "$query".</div>"""
+"""<div id="status" hx-swap-oob="true" role="alert">Found $total $noun matching "$query".</div>"""
 }
 
 private fun messageStatusFragment(
