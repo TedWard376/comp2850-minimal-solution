@@ -66,51 +66,54 @@ track of currenttly focused element
 
 ## Participant P2
 **Mode**: Screen Reader
-**Date**: 2025-12-04
+**Date**: 2025-12-09
 **Consent**: ✅ Verbal confirmed
-**Duration**: 8 minutes
+**Duration**: 14 minutes
 
 ---
 
 ### Task 1: Edit Task
-**Start**: 16:01:53 → **End**: 16:02:08  = **16 seconds**
-**Success**: 0
-**Errors**: 1
+**Start**: 11:07:57 → **End**: 11:08:27  = **30 seconds**
+**Success**: 1
+**Errors**: 0
 **Confidence**: 4/5
 **Observations**:
-The edit button didnt work, when clicked on, just refreshed page
-2025-12-04T16:02:08.095450940Z,P2_f923,r_79df8286,T2_edit,success,,2,200,off
-2025-12-04T16:02:08.128489909Z,P2_f923,r_f996bcf1,T0_list,success,,27,200,off
+screen reader annouces content in logical order making it easy to navigate, no imediate confirmation that task has been updated sucessfully
+2025-12-09T11:08:16.732017200Z,750dc0,r_ca04bc3e,T2_edit,success,,9,200,on
+2025-12-09T11:08:27.786388600Z,750dc0,r_cf7e1768,T2_edit,success,,36,200,on
 ---
 
 ### Task 2: Delete Task
-**Start**: 16:04:00 → **End**: 16:04:08 = **8 seconds**
+**Start**: 11:13:46 → **End**: 11:14:25 = **39 seconds**
 **Success**: 1
 **Errors**: 0
-**Confidence**: 5/5
+**Confidence**: 3/5
 **Observations**:
-simple navigation, used filter to find task, easy to delete, pages refreshed,
-took slightly longer than with js enabled
-2025-12-04T16:04:06.286042418Z,P2_f923,r_e6837044,T0_list,success,,21,200,off
-2025-12-04T16:04:08.088702962Z,P2_f923,r_af365bbd,T4_delete,success,,5,200,off
+navigation is easy and logical, have to wait for screen reader to announce
+button type (edit/delete) before task related to it, makes navigation longer 
+2025-12-09T11:14:25.874059200Z,750dc0,r_447309e7,T4_delete,success,,17,200,on
+
 
 ---
 ## Task 3: Filter Task
-**Start**: 16:07:18 → **End**: 16:07:25 = **7 seconds**
+**Start**: 11:17:08 → **End**: 11:17:30 = **22 seconds**
 **Success**: 1
 **Errors**: 0
 **Confidence**: 5/5
 **Observations**:
-easy to filter and find all related tasks, doesnt show on metrics as filter button being used
-2025-12-04T16:07:25.217040636Z,P2_f923,r_ca5a34c8,T0_list,success,,21,200,off
+Immediate feedback when trying to filter, screen reader annouces how many matching tasks
+2025-12-09T11:17:23.548952800Z,750dc0,r_d8e2e220,T1_filter,success,,31,200,on
+2025-12-09T11:17:26.559707400Z,750dc0,r_ee398c85,T1_filter,success,,18,200,on
+2025-12-09T11:17:27.728573200Z,750dc0,r_349faf1f,T1_filter,success,,20,200,on
+2025-12-09T11:17:30.391248200Z,750dc0,r_729775ca,T1_filter,success,,22,200,on
 
 ---
 ## Task 4: Key-Board only navigation
-**Start**: 16:08:32 → **End**: 16:09:04 = **32 seconds**
+**Start**: 11:20:14 → **End**: 11:21:49 = **95 seconds**
 **Success**: 1
 **Errors**: 1
-**Confidence**: 3/5
+**Confidence**: 2/5
 **Observations**:
-easy to navigate and create task, however task was added on page two and accidentially went passed that buton which caused 
-user to have to go all the way back round to get back to the "Next" button 
-2025-12-04T16:09:04.099771507Z,P2_f923,r_3c877a16,T0_list,success,,12,200,off
+easy to navigate and create task, however task was added on page two and when tabing
+focus skipped to top of the page instead on next item in list on the next page 
+2025-12-09T11:20:24.960970800Z,750dc0,r_04f4a968,T3_add,success,,40,200,on
